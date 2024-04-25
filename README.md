@@ -29,14 +29,14 @@ Please refer to run.sh and terminalcommandhere.applescript which I exported from
 
 # References
 ```bash
-# References:
-#     iTerm AppleScript Examples:
-#     https://gitlab.com/gnachman/iterm2/wikis/Applescript
-#
-# Credit:
-#     Franz Heidl  -- www.franzheidl.de -- Alfred workflow runterminalcommandhere
-#     https://gist.github.com/vyder/96891b93f515cb4ac559e9132e1c908
-#     https://gist.github.com/geyang/a495a5ea8e6fdd2f79f8e874616ea182
+References:
+    iTerm AppleScript Examples:
+    https://gitlab.com/gnachman/iterm2/wikis/Applescript
+
+Credit:
+    Franz Heidl  -- www.franzheidl.de -- Alfred workflow runterminalcommandhere
+    Open iTerm2 and Execute -- https://gist.github.com/vyder/96891b93f515cb4ac559e9132e1c908
+    https://gist.github.com/geyang/a495a5ea8e6fdd2f79f8e874616ea182
 ```
 # Questions?
 If there are problems, please open issues. I will look at when I have time. Thanks and enjoy!
