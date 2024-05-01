@@ -5,11 +5,6 @@ function iterm () {
     local wd="$PWD"
     local args="$@"
 
-    if [ -d "$1" ]; then
-        wd=$(cd "$1"; pwd)
-        args="${@:2}"
-    fi
-
     if [ -n "$args" ]; then
         # echo $args
         cmd="$args"
@@ -23,7 +18,7 @@ tell application "iTerm"
 	tell new_window
 		tell cSession
 			delay 1
-			write text "cd '$wd';$cmd"
+			write text "$cmd"
 			delay 2
 			repeat
 				delay 0.1
